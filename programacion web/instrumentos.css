@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background:linear-gradient(to right,#ffa500,#eb7222);
+}
+.imagenstrat{
+    padding: 10px;
+    width: 98%;
+    border: 4px yellow outset;
+    background: linear-gradient(to left, white,orange)
+}
+.leoimg{
+  float: inline-end;
+    width: 400px;
+    height: 400px;
+}
+.carrusel{
+	width: 1300px;
+	height: auto;
+	margin: 50px auto 0;
+    padding: 0;
+    overflow: hidden;
+}
+.carrusel ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 15s infinite alternate ease-in-out;
+}
+.carrusel li{
+	width: 100%;
+	list-style: none;
+}
+.carrusel img{
+	width: 1300px;
+}
+
+@keyframes slide {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	95%{margin-left: -300%;}
+}
+.imagenstrat h2{
+    background:linear-gradient(to left,rgb(228, 224, 171),darkgoldenrod) ;
+}
+.imagenstrat p{
+    text-decoration: uppercase;
+    font-size: 20px;
+}
+/*acustic css*/
+.acustica{
+    padding: 10px;
+    width: 98%;
+    border: 4px yellow outset;
+    background: linear-gradient(to left, white,orange)
+}
+.acustica img{
+    width: 1300px;
+    height: 600px;
+}
+.carrusel2{
+	width: 1300px;
+	height: auto;
+	margin: 50px auto 0;
+    padding: 0 ;
+    overflow: hidden;
+}
+.carrusel2 ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 15s infinite alternate ease-in-out;
+}
+.carrusel2 li{
+	width: 100%;
+	list-style: none;
+}
+.carrusel2 img{
+	width: 1300px;
+}
+
+@keyframes slide {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	95%{margin-left: -300%;}
+}
+.acustica h2{
+    background:linear-gradient(to left,rgb(228, 224, 171),darkgoldenrod) ;
+}
+.acustica p{
+    text-decoration: uppercase;
+    font-size: 20px;
+}
+
+.gibson{ /*empiezo gibson css*/
+    padding: 10px;
+    width: 98%;
+    border: 4px yellow outset;
+    background: linear-gradient(to left, white,orange)
+}
+.carrusel{
+	width: 1300px;
+	height: auto;
+	margin: 50px auto 0;
+    padding: 0;
+    overflow: hidden;
+}
+.carrusel ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 15s infinite alternate ease-in-out;
+}
+.carrusel li{
+	width: 100%;
+	list-style: none;
+}
+.carrusel img{
+	width: 1300px;
+}
+
+@keyframes slide {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	95%{margin-left: -300%;}
+}
+.gibson h2{
+    background:linear-gradient(to left,rgb(228, 224, 171),darkgoldenrod) ;
+}
+.gibson p{
+    text-decoration: uppercase;
+    font-size: 20px;
+}
+.footer{
+	display: flex;
+}
+@media (max-width:800px) {
+	.carrusel ul li img{
+		width: 30%;
+	}
+	.carrusel2 ul li img{
+		width: 30%;
+		height: 90%;
+	}
+	.acustica{
+		width: 100%;
+	}
+}
+
+

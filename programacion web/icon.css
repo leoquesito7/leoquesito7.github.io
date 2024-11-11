@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: azure;
+}
+body{
+    background: linear-gradient(to right,#141413,#b1acab);
+}
+img{
+    width: 328px;
+    height: 400px;
+    transition: transform 0.5s;
+}
+img:hover{
+    transform: scale(1.1)
+}
+.icon1{
+    background:linear-gradient(to left,#5beb19,rgb(48, 58, 25));
+    border: 3px solid yellow;
+    width:328px ;
+    height:600px ;
+    float:inline-start;
+}
+.footer{
+    display: flex;
+}
+@media (max-width:800px) {
+    .icon1{
+        flex-direction: column 1;
+       padding: 40px;
+     
+    }
+    
+}
